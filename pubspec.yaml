@@ -1,0 +1,72 @@
+name: sixam_mart_delivery
+description: A new Flutter application.
+publish_to: 'none' #
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  get:
+  shared_preferences:
+  connectivity:
+  firebase_core:
+  firebase_messaging:
+  flutter_local_notifications:
+  path_provider:
+  url_strategy:
+  pin_code_fields:
+  http:
+  flutter_switch:
+  shimmer_animation:
+  geolocator:
+  geocoding:
+  google_maps_flutter:
+  url_launcher:
+  vibration:
+  image_picker:
+  disable_battery_optimization:
+  phone_number:
+  country_code_picker:
+#  location: ^4.4.0
+  audioplayers:
+  flutter_html:
+  cached_network_image:
+  image_compression_flutter:
+  win32:
+  path:
+  http_parser:
+  intl:
+  dotted_border:
+
+dependency_overrides:
+  modal_bottom_sheet:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/language/
+    - assets/notification.mp3
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/font/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/font/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/font/Roboto-Black.ttf
+          weight: 900
